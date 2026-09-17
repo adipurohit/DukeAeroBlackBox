@@ -1,0 +1,18 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "23cf1810-37d6-4e40-8e97-654dabda2347")
+	(paper "A4")
+	(lib_symbols)
+	(text "Detect input power loss early. Keep controller and storage powered long enough to finish pending writes. Hold-up time and regulated voltage: TBD."
+		(exclude_from_sim no)
+		(at 86.106 15.494 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c68ebb65-ce2d-492e-b64e-7972e09b46f1")
+	)
+)

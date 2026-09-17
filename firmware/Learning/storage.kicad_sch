@@ -1,0 +1,18 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "ce493ff9-882b-4036-bfe3-684820628e16")
+	(paper "A4")
+	(lib_symbols)
+	(text "Sustained payload target: 7.5 MB/s, pending confirmation. Capacity and recording duration: TBD. Recover completed records after interrupted writes."
+		(exclude_from_sim no)
+		(at 100.076 14.986 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dadcfc1e-0e9e-4375-98d6-b5103b4c952f")
+	)
+)

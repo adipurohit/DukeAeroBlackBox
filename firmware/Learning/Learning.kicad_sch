@@ -2,9 +2,249 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid fd392865-ee3d-4d26-b639-52a406bb01b5)
+	(uuid "fd392865-ee3d-4d26-b639-52a406bb01b5")
 	(paper "A4")
 	(lib_symbols)
+	(text "Preliminary architecture - component selection pending confirmed data rate, recording duration, input power, and interface requirements."
+		(exclude_from_sim no)
+		(at 213.614 162.306 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "aef53d6a-04a0-4b38-b62d-935ed430f116")
+	)
+	(sheet
+		(at 101.6 16.51)
+		(size 87.63 55.88)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "1fae79b9-9edc-45ad-b985-d6f08b9bdad4")
+		(property "Sheetname" "controller"
+			(at 101.6 15.7984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "controller.kicad_sch"
+			(at 101.6 72.9746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Learning"
+				(path "/fd392865-ee3d-4d26-b639-52a406bb01b5"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 200.66 19.05)
+		(size 72.39 60.96)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "41a8301a-f6c4-4ae9-b12f-5676650def99")
+		(property "Sheetname" "power_input"
+			(at 200.66 18.3384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_input.kicad_sch"
+			(at 200.66 80.5946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Learning"
+				(path "/fd392865-ee3d-4d26-b639-52a406bb01b5"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 15.24 85.09)
+		(size 87.63 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "6a52668d-7052-448c-be48-d590fd89e7c6")
+		(property "Sheetname" "storage"
+			(at 15.24 84.3784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "storage.kicad_sch"
+			(at 15.24 136.4746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Learning"
+				(path "/fd392865-ee3d-4d26-b639-52a406bb01b5"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 113.03 83.82)
+		(size 81.28 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "80f04ab4-ef6d-4368-af00-89e71a184b77")
+		(property "Sheetname" "pwoer_backup"
+			(at 113.03 83.1084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_backup.kicad_sch"
+			(at 113.03 135.2046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Learning"
+				(path "/fd392865-ee3d-4d26-b639-52a406bb01b5"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 15.24 15.24)
+		(size 82.55 59.69)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "8b17bc36-b8c4-4c1a-8756-b831ee00cd43")
+		(property "Sheetname" "mainboard_interface"
+			(at 15.24 14.5284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mainboard_interface.kicad_sch"
+			(at 15.24 75.5146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Learning"
+				(path "/fd392865-ee3d-4d26-b639-52a406bb01b5"
+					(page "5")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")

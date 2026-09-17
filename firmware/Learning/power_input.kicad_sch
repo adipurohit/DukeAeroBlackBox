@@ -1,0 +1,18 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "3ea797f6-c7c9-49c6-8bf8-0aa69eb25ec0")
+	(paper "A4")
+	(lib_symbols)
+	(text "Input voltage: TBD. Protect against reversed power and faults. Prevent backup energy from flowing back to the main board."
+		(exclude_from_sim no)
+		(at 74.168 15.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "411bda86-2014-467a-ab0a-b04e6b4e1c30")
+	)
+)

@@ -1,0 +1,18 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "26b66443-c19c-4208-9af4-d5a93f0fa23e")
+	(paper "A4")
+	(lib_symbols)
+	(text "UART preferred; required speed unresolved. Logic voltage, connector, cable length, and flow control: TBD."
+		(exclude_from_sim no)
+		(at 65.532 14.986 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5109e825-2f82-4869-be31-3322c795d4df")
+	)
+)
