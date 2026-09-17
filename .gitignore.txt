@@ -1,0 +1,18 @@
+# Personal settings and generated cache
+*.kicad_prl
+fp-info-cache
+
+# Locks, autosaves, and local history
+~*.lck
+_autosave-*
+~*
+.history/
+
+# Automatic backups
+*-backups/
+*.kicad_sch-bak
+*.kicad_pcb-bak
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db
