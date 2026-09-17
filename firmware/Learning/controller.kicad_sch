@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "88e9cec8-747f-458f-b2a2-1607fe10224c")
+	(uuid "48bd46d0-a456-42a9-857c-080379a47a12")
 	(paper "A4")
 	(lib_symbols)
 	(text "Receive main-board packets. Buffer data during storage delays. Check sequence numbers and CRC. Handle shutdown and restart recovery. Include programming/debug access."

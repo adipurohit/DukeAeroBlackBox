@@ -2,12 +2,12 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "ce493ff9-882b-4036-bfe3-684820628e16")
+	(uuid "87d2eb13-b6eb-4a07-9ae4-ab7f0a68e9d8")
 	(paper "A4")
 	(lib_symbols)
-	(text "Sustained payload target: 7.5 MB/s, pending confirmation. Capacity and recording duration: TBD. Recover completed records after interrupted writes."
+	(text "Incoming data: 70-byte packets at 50 Hz = 3.5 kB/s nominal. Allow additional protocol and logging overhead, plus growth margin.\nTarget storage capacity: 1 Gbit.\nRecover completed records after interrupted writes."
 		(exclude_from_sim no)
-		(at 100.076 14.986 0)
+		(at 97.282 17.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
